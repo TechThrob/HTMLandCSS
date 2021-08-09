@@ -1,0 +1,599 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  text-decoration: none;
+  color: black;
+}
+
+/* body {
+  background-image: url(download.jpeg);
+  height: 50vh;
+  background-size: cover;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding-right: 20px;
+
+  width: 100%;
+  height: 55px;
+  background: #262626;
+}
+
+.head {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 16px;
+  font-size: 15px;
+  font-weight: 330;
+}
+
+.seconddiv {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 120px;
+}
+
+.envato {
+  margin-left: 12px;
+}
+
+.pursuit {
+  margin-left: 120px;
+  margin-right: 430px;
+}
+
+.buy button {
+  font-size: 14px;
+  font-weight: 200;
+  padding: 8px 22px;
+  background-color: #82b440;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+.buy button:hover {
+  background-color: #71a80b;
+}
+
+.download button {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 11px 22px 10px 22px;
+  margin-right: 30px;
+  background-color: #10528c;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+.download button:hover {
+  background-color: #366e98;
+}
+.download {
+  margin-right: 100px;
+}
+#menu {
+  font-weight: 100;
+}
+
+.block {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 70px;
+  color: #545454;
+}
+
+.heropicture {
+  padding-top: 35px;
+  padding-right: 70px;
+}
+
+#pursuittheme {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #545454;
+}
+
+#amodernapp {
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: normal;
+  margin-bottom: 30px;
+  color: #545454;
+  width: 400px;
+  line-height: 50px;
+}
+
+.buypursuit button {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 14px 34px;
+  margin-right: 5px;
+  background-color: #10528c;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+.buypursuit button:hover {
+  background-color: #366e98;
+}
+.viewdemos button {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 32px;
+  border-style: solid;
+  border-color: #10528c;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: #10528c;
+}
+.viewdemos button:hover {
+  background-color: #10528c;
+  color: #ffffff;
+}
+.thirddiv {
+  box-sizing: border-box;
+  background-color: rgb(0, 140, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 180px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 115, 255, 0.475),
+    rgb(0, 195, 255)
+  );
+}
+.elite {
+  color: #ffffff;
+}
+.power {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+.customers {
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+}
+.figure {
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+.cust {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+.star {
+  text-align: center;
+}
+.starlogo {
+  justify-content: space-between;
+  padding: 4px;
+}
+.space {
+  margin: 4px;
+}
+.five {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+.fourthdiv {
+  background: #262626f5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+.secondnav {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+.secondnavA {
+  color: #ffffff;
+  font-size: 15px;
+  margin: 3px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+.secondnavA button {
+  background-color: #464242;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 12px 25px;
+  border: none;
+  color: #ffffff;
+}
+.firstimagediv {
+  padding-top: 10px;
+  padding-left: 85px;
+  padding-right: 85px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.inblock {
+  padding: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.text {
+  padding: 8px;
+  color: #ffffff;
+  font-size: 17px;
+  cursor: initial;
+}
+.fifthdiv {
+  background: #14161bd8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+.thirdnav {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+.firstimagedivv {
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.inblockk {
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.sixthdiv {
+  background: #262626f5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+.seventhdiv {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-bottom: 120px;
+}
+.blockk {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 5px;
+  color: #545454;
+}
+
+.heropicturee {
+  padding-top: 35px;
+  padding-right: 20px;
+}
+#live {
+  color: #10528c;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+#noneed {
+  line-height: 30px;
+  font-weight: 200;
+}
+#immediately {
+  line-height: 30px;
+  font-weight: 200;
+  margin-top: 5px;
+}
+.check {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.checkk {
+  line-height: 30px;
+  font-weight: 100;
+}
+.eightdiv {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-bottom: 120px;
+  background: #262626fa;
+}
+.blockkk {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 120px;
+  color: #545454;
+}
+
+.heropictureee {
+  padding-left: 60px;
+}
+
+#effortless {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+#guided {
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  padding-bottom: 5px;
+}
+.checker {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.checkker {
+  line-height: 30px;
+  font-weight: 100;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+.moreinfo button {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 14px 34px;
+  margin-right: 5px;
+  background-color: #dd6d6d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+.moreinfo button:hover {
+  background-color: #db5858;
+}
+.viewd button {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 32px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #262626f6;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: #ffffff;
+}
+.viewd button:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+.ninthdiv {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-bottom: 100px;
+}
+.blocks {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 70px;
+  padding-top: 65px;
+  color: #545454;
+  width: 600px;
+}
+#who {
+  color: #14161bd8;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.heropictures {
+  padding-right: 30px;
+  margin-left: 5px;
+}
+#premium {
+  color: #10528c;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-right: 35px;
+}
+
+#perfect {
+  line-height: 30px;
+  font-weight: 200;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.tenthdiv {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-bottom: 120px;
+  background: #262626fa;
+}
+.blocked {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 100px;
+  color: #545454;
+  width: 600px;
+  padding-right: 50px;
+}
+
+.heropictured {
+  padding-right: 30px;
+}
+.checkedd {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.checked {
+  line-height: 30px;
+  font-weight: 100;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+.final {
+  padding-bottom: 90px;
+}
+
+.lastdiv {
+  background: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+.lastnav {
+  color: #000;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+.groupdiv {
+  box-sizing: border-box;
+  display: flex;
+  padding-bottom: 40px;
+}
+.lastimagediv {
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  align-items: center;
+}
+.indiblock {
+  display: flex;
+  align-items: flex-start;
+  padding-right: 45px;
+}
+.inner {
+  padding-top: 14px;
+}
+.bigtext {
+  color: #262626bf;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+.smalltext {
+  color: #262626bf;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  width: 320px;
+  line-height: 23px;
+}
+.enddiv {
+  padding: 60px 300px;
+  background: #ededed;
+  align-content: center;
+}
+.center {
+  display: flex;
+  align-items: center;
+}
+.is {
+  color: #10528c;
+  font-size: 24px;
+  font-weight: 330;
+  letter-spacing: 0.5px;
+  padding-right: 30px;
+}
+.buyp {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 17px 50px 15px 50px;
+  margin-right: 30px;
+  background-color: #10528c;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: #ffffff;
+}
+.buyp button:hover {
+  background-color: #366e98;
+}
+.pre {
+  /* position: fixed; */
+  padding: 17px 30px 15px 30px;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#chat {
+  padding-right: 10px;
+}
